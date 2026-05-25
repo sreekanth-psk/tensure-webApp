@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     "ROI estimator",
     "pipeline design",
   ],
+  icons: {
+    icon: "/favicon.svg", // add your sparkles SVG here
+  },
   openGraph: {
     title: "Tensure | AI-Driven Pipeline Design & ROI Estimator",
     description:
@@ -44,6 +47,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
+      <head>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      </head>
       <body className="font-sans">
         <Navbar />
         <main>{children}</main>
