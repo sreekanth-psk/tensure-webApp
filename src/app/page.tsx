@@ -16,8 +16,8 @@ export default function HomePage() {
       <FeaturesSection />
       <TrustSection />
       <BlogSection />
-      <ConsultationSection />
       <CTABanner />
+      <ConsultationSection />
     </>
   );
 }
